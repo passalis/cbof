@@ -2,7 +2,7 @@
 
 This is the implementation used for conducting the experiments in the [Bag-of-Features Pooling method for Deep Convolutional Neural Networks]() paper. This implementation is slower than the *lasagne*-based implementation that we provide in the [main repository](). However, it is also more flexibly, i.e., it allows for using separate codebooks for each spatial region.
 
-Note that the obtain results might slightly vary due to the non-deterministic behaviour of the libraries (CUDA) used for the GPU calculations. To avoid these issues we explicitly avoiding using non-determining algorithms during the optimization. To do so, you can add the following in the *theano.rc* configuration file:
+Note that the obtained results might slightly vary due to the non-deterministic behaviour of the libraries (CUDA) used for the GPU calculations. To avoid these issues we explicitly avoid using non-determining algorithms during the optimization. To do so, you can add the following in the *theano.rc* configuration file:
 
 <pre>
 [dnn.conv]
