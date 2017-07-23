@@ -18,7 +18,7 @@ After using this configuration and fixing the seeds, the following results shoul
 | CNN           | 0.56 %    |  -     |
 | GMP           | 0.78 %    | 3.31 %      |
 | SPP           | 0.55 %    | 1.49 %      |
-| CBoF (64, 1)   | ** 0.47 % **    | ** 0.99 % ** |
+| CBoF (64, 1)   | **0.47 %**    | **0.99 %** |
 
 
 If you use this code in your work please cite the following paper:
