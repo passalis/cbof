@@ -70,7 +70,7 @@ def run_demo_mnist(model='cbof', n_iters=50, seed=1, ):
         print("Err (20x20): ", 100 - test_acc_20)
 
 
- run_demo_mnist(model='plain')
+run_demo_mnist(model='plain')
 run_demo_mnist(model='gmp')
 run_demo_mnist(model='spp')
 run_demo_mnist(model='cbof')
