@@ -27,7 +27,7 @@ If you use this code in your work please cite the following paper:
 <pre>
 @InProceedings{cbof_iccv,
 author = {Passalis, Nikolaos and Tefas, Anastasios},
-title = {Ask Your Neurons: A Neural-Based Approach to Answering Questions About Images},
+title = {Bag-of-Features Pooling for Deep Convolutional Neural Networks},
 booktitle = {Proceedings of the IEEE International Conference on Computer Vision (to appear)},
 year = {2017}
 }
