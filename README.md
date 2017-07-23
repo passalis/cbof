@@ -10,7 +10,7 @@ We provide an example of using the proposed method in mnist_example.py and we co
 | SPP           | 0.68 %    | 4.08 %      | 36.78 %      |
 | BoF Pooling   | **0.54 %**    | **1.40 %**      | **17.60 %**    |
 
-Note that this is not the implementation used for conducting the experiments in our [paper](). The original (slower, but more flexible) implementation can be found in [cbof_paper]().
+Note that this is not the implementation used for conducting the experiments in our [paper](). The original (slower, but more flexible) implementation can be found in [cbof_paper](cbof_paper).
 
 If you use this code in your work please cite the following paper:
 
