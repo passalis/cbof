@@ -1,6 +1,6 @@
 # Bag-of-Features Pooling for Deep Convolutional Neural Networks
 
-In this repository we provide an efficient re-implementation of the [Bag-of-Features Pooling method for Deep Convolutional Neural Networks](https://arxiv.org/abs/1707.08105) using the Lasagne framework. The provided lasagne layer can be used in any lasagne-based model. The distance between the extracted feature vectors and the codebook is calculated using convolutional layers (exploiting that the squared distance ||x-y||^2 can be calculated using three inner products, i.e., x^2+y^2-2xy), significantly speeding up the training/testing speed.
+In this repository we provide an efficient and simple re-implementation of the [Bag-of-Features Pooling method for Deep Convolutional Neural Networks](https://arxiv.org/abs/1707.08105) using the Lasagne framework. The provided lasagne layer can be used in any lasagne-based model. The distance between the extracted feature vectors and the codebook is calculated using convolutional layers (exploiting that the squared distance ||x-y||^2 can be calculated using three inner products, i.e., x^2+y^2-2xy), significantly speeding up the training/testing speed.
 
 We provide an example of using the proposed method in mnist_example.py and we compare the BoF pooling to the plain SPP polling. The proposed method can provide better scale invariance, as shown below (the classification error on the MNIST dataset is reported):
 
