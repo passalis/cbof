@@ -100,7 +100,7 @@ class CBoF_Layer(lasagne.layers.Layer):
 
         # Initialize gamma
         mean_distance = np.sum(pairwise_distances(V)) / (self.n_codewords * (self.n_codewords - 1))
-        self.gamma.set_value(self.gamma.get_value() * np.float32(np.sqrt(1) * mean_distance))
+        self.gamma.set_value(self.gamma.get_value() * np.float32(mean_distance))
 
         # Initialize codebook
         V = V.reshape((V.shape[0], V.shape[1], 1, 1))
