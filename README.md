@@ -20,7 +20,7 @@ If you use this code in your work please cite the following paper:
 @InProceedings{cbof_iccv,
 author = {Passalis, Nikolaos and Tefas, Anastasios},
 title = {Bag-of-Features Pooling for Deep Convolutional Neural Networks},
-booktitle = {Proceedings of the IEEE International Conference on Computer Vision (to appear)},
+booktitle = {Proceedings of the IEEE International Conference on Computer Vision},
 year = {2017}
 }
 </pre>
